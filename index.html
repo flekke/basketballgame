@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="/path/to/buttons.css" rel="stylesheet">
+    <link href="/path/to/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class='entire'>
+        <div class="scoreboard">
+            <div class="div-scoreboard inner">
+                <div class="div-shots-left">
+                    <span>shots-left</span>
+                    <span id="shots-left">7</span>
+                </div>
+                <div class="div-score">
+                    <div class="div-score-name">computer</div>
+                    <div id="computer-score" class="div-score-number">0</div>
+                </div>
+                <div class="div-score">
+                    <div class="div-score-name">vetle</div>
+                    <div id="user-score" class="div-score-number">0</div>
+                </div>
+                <div id="text"></div>
+            </div>
+        </div>
+        <div class="div-control-panel">
+            <div id="div-computer" class="div-panel">
+                <div class="div-control-name">computer</div>
+                <button class="btn-computer" onclick="onComputerShoot()" disabled >shot</button>
+            </div>
+         <div id="div-user" class="div-panel">
+                <div class="div-control-name">user</div>
+                <button class="btn-user" onclick="onUserShoot(2)" disabled>2 points shot</button>
+                <button class="btn-user" onclick="onUserShoot(3)" disabled>3 points shot</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Dosis', sans-serif;
+    
+}
+.entire{
+    border-radius: 10px;
+}
+.div-scoreboard{
+    width: 400px;
+    background-color: #009f48;
+    text-align: center;
+    padding: 2px;
+    color:#fff;
+    font-family: 'Dosis', sans-serif;
+    background-image: url('https://addons-media.operacdn.com/media/CACHE/images/themes/05/144705/1.0-rev1/images/0993404e-79e0-4052-923d-89236e7c102f/ce42ef837a89c852c000eafd63cd0763.jpg');
+    background-size: cover;
+    
+}
+
+.div-scoreboard inner{
+    margin:auto;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+.div-shots-left{
+    margin-top: 10px;
+}
+
+#shots-left{
+    background-color: #000;
+    padding: 4px 4px 2px;
+}
+.div-score{
+    display:inline-block;
+    border: 1px solid #fff;
+    padding: 10px 40px 5px;
+    margin: 10px;
+    width: 20%;
+}
+.div-score-name{
+    font-size:20px;
+    font-family: 'Dosis', sans-serif
+}
+.div-score-number{
+    font-size:40px;
+    color:#ffff00;
+    background-color: #000;
+    width:100%;
+    line-height: 40px;
+    padding-top:5px;
+    margin-top:2px;
+}
+#text{
+    height:30px;
+}
+
+button{
+    padding:10px 20px;
+    font-size: 14px;
+    background-image: url('https://addons-media.operacdn.com/media/CACHE/images/themes/05/144705/1.0-rev1/images/0993404e-79e0-4052-923d-89236e7c102f/ce42ef837a89c852c000eafd63cd0763.jpg');
+    background-size: cover;
+    color: white
+}
+
+
+  
+
+.div-panel{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.div-control-panel{
+    width:400px;
+    background-color: #525252;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    background-image: url('https://cutewallpaper.org/21/dark-space-background/Dark-Space-Wallpapers-Top-Free-Dark-Space-Backgrounds-.jpg');
+    background-size: cover;
+}
+
+.div-control-name{
+    font-size:20px;
+    margin-bottom:5px; 
+}
